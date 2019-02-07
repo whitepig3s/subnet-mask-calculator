@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1495623650 source:c:\users\user\desktop\test\1-cidr list.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1495622143 source:c:\users\user\desktop\test\main.cpp
+	<iostream>
+
+1495804088 source:d:\test\main.cpp
+	<iostream>
+
+1495791440 source:d:\test\1-cidr list.cpp
+	<iostream>
+	<fstream>
+
+1495791440 source:f:\test\1-cidr list.cpp
+	<iostream>
+	<fstream>
+
+1495794412 source:f:\test\main.cpp
+	<iostream>
+
+1495792158 source:f:\test\range.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1495794396 source:f:\test\2-convergence.cpp
+	<stdio.h>
+	<stdlib.h>
+
+1495792158 source:f:\test\3-range.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1495794316 source:f:\test\4-host.cpp
+	<stdio.h>
+	<stdlib.h>
+
+1495794396 source:d:\test\2-convergence.cpp
+	<stdio.h>
+	<stdlib.h>
+
+1495792158 source:d:\test\3-range.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1495794316 source:d:\test\4-host.cpp
+	<stdio.h>
+	<stdlib.h>
+
