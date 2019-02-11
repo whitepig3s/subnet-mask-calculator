@@ -3,7 +3,7 @@
 void host()
 {
 	FILE *fPtr;
-	fPtr =fopen("CDIR.txt","r");
+	fPtr =fopen("CIDR.txt","r");
 	int a[50][10];
 	int n,i,j;
 	for(i=29;i>=0;i--)
