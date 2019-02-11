@@ -1,61 +1,81 @@
 #include <iostream>
-#include <cctype>
 #include <cstdlib>
+#include <conio.h>
 using namespace std;
+
+//----- 分辨OS -----
+#ifdef linux
+    #define command "clear"
+#endif
+
+#ifdef _WIN32
+    #define command "cls"
+#endif
+
+#ifdef _WINDOWS
+    #define command "cls"
+#endif
+//----------
+
 void cidrlist();
-void convergence();
+void summarization();
 void range();
 void host();
 void ree();
+void pause ();
 
 int main ()
 {
     char in[3]= {0};
-    cout<<"歡迎使用子網路遮罩計算機"<<endl;
     while (1)
     {
-        cout<<endl<<"(1) 遮罩與CIDR列表"<<endl;        //print list
-        cout<<"(2) 路由匯總"<<endl;
-        cout<<"(3) IP位址與子網路遮罩對應"<<endl;
-        cout<<"(4) IP位址、子網路遮罩個數計算"<<endl;
-        cout<<"輸入 0 即可結束程式"<<endl;
+        //----- print list -----
+        cout<<"########## Menu ##########"<<endl<<endl;
+        cout<<"(1) List of mask and CIDR notion."<<endl;
+        cout<<"(2) Routing summarization."<<endl;
+        cout<<"(3) Calculate IP address and subnet mask number."<<endl;
+        cout<<"(4) Calculate IP address and the number of host."<<endl;
+        cout<<"Press 0 to exit the program."<<endl;
+        //----------
 
-        cout<<"請輸入數字: ";
+        cout<<endl<<"Please enter a number: ";
         cin>>in;
         if (in[1]=='\0')
         {
             if (isdigit(in[0]))
             {
                 int inn=0;
-                inn=in[0]-48;       //char 轉 int
+                inn=in[0]-'0';       //char 2 int
 
-                if(inn==1)      //進入選單
+                //----- enter -----
+                if(inn==1)
                 {
-                    system("cls");
+                    system(command);
                     cidrlist();
                 }
                 else if (inn==2)
                 {
-                    system("cls");
-                    convergence();
+                    system(command);
+                    summarization();
                 }
                 else if (inn==3)
                 {
-                    system("cls");
+                    system(command);
                     range ();
                 }
                 else if (inn==4)
                 {
-                    system("cls");
+                    system(command);
                     host();
                 }
                 else if (inn==0)
                 {
-                    system("cls");
+                    system(command);
                     break;
                 }
                 else
                     ree();
+                //----------
             }
             else
                 ree();
@@ -63,16 +83,22 @@ int main ()
         else
             ree();
     }
-    system("cls");
+    system(command);
     cout<<"Bye bye!!"<<endl;
-    system("pause");
+    pause ();
     return 0;
 }
 
 void ree()       //re-enter
 {
-    system("cls");
-    cout<<"請重新輸入"<<endl;
-    system("pause");
-    system("cls");
+    system(command);
+    cout<<"Please re-enter the number."<<endl;
+    pause ();
+}
+
+void pause ()
+{
+    cout<<"Press any key to continue...";
+    char c=getch();
+    system(command);
 }

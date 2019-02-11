@@ -32,7 +32,7 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="1-cidr list.cpp" />
-		<Unit filename="2-convergence.cpp" />
+		<Unit filename="2-summarization.cpp" />
 		<Unit filename="3-range.cpp" />
 		<Unit filename="4-host.cpp" />
 		<Unit filename="main.cpp" />

@@ -76,7 +76,7 @@
 	<stdio.h>
 	<stdlib.h>
 
-1496323036 source:c:\users\hp\desktop\version 3.0\成發\3-range.cpp
+1549878348 source:c:\users\hp\desktop\version 3.0\成發\3-range.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
@@ -86,8 +86,36 @@
 	<stdio.h>
 	<stdlib.h>
 
-1496323036 source:c:\users\hp\desktop\version 3.0\成發\main.cpp
+1549877403 source:c:\users\hp\desktop\version 3.0\成發\main.cpp
 	<iostream>
 	<cctype>
 	<cstdlib>
+	<conio.h>
+
+1549893194 source:c:\users\hp\desktop\version 4.0\成發\1-cidr list.cpp
+	<iostream>
+	<fstream>
+
+1549897174 source:c:\users\hp\desktop\version 4.0\成發\2-convergence.cpp
+	<stdio.h>
+	<stdlib.h>
+
+1549878348 source:c:\users\hp\desktop\version 4.0\成發\3-range.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1496323036 source:c:\users\hp\desktop\version 4.0\成發\4-host.cpp
+	<stdio.h>
+	<stdlib.h>
+
+1549897145 source:c:\users\hp\desktop\version 4.0\成發\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+
+1549897174 source:c:\users\hp\desktop\version 4.0\成發\2-summarization.cpp
+	<stdio.h>
+	<stdlib.h>
 
